@@ -12,4 +12,18 @@
 
 • Download and change logs:
   https://www.pling.com/p/1992765
- 
+
+# Update Beta Stage 2 Feb 25 2023
+
+• Adjusted prediction data for sched boosting and frequency scaling
+
+• Deep Sleep detection
+
+• The AI will try to disable sensors when deep sleep is detected
+  Also Bind all system process in small Cluster CPU's
+  for better idle drain
+
+
+
+
+
