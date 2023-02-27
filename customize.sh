@@ -3,7 +3,7 @@
 ARC=`getprop ro.product.cpu.abi`
 
 ui_print "- AI engine for Android Performance Management"
-ui_print "- Beta Stage 2"
+ui_print "- Beta Stage 3"
 ui_print "- Checking Arch.."
 
 if [ "$ARC" == "arm64-v8a" ]; then
@@ -31,4 +31,11 @@ chmod -R 777 "$MODPATH/AIEX32"
 chmod -R 755 "$MODPATH/service.sh"
 
 rm -rf "$MODPATH/AIEX64"
+
+else
+
+ui_print "- $ARC"
+ui_print "- Device Arch is not supported"
+abort
+
 fi
