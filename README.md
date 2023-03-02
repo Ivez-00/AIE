@@ -41,14 +41,23 @@
   supported
 
 • Now comes with AIE helper,
+
   you can disable/enalbe AIE or optimize apps
+
   (initial release! will add more useful stuffs)
+
   to use:
+
   if successfully installed in arch64 device.
+
   type in termux (recommended):
+
   su -c AIE64.
+
   if successfully installed in armeabi device.
+
   type in termux (recommended):
+
   su -c AIE32
 
 
