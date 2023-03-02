@@ -31,6 +31,26 @@
 
 • adjusted data for efficient sched boosting
 
+# Beta Stage 4 March 3 2023
+
+• Prioritize Low frequency when in Low-Perf mode
+
+• Only trigger High-Perf mode when Heavy task is detected
+
+• Stock / Custom kernels with cpu_input_boost and adreno_boost
+  supported
+
+• Now comes with AIE helper,
+  you can disable/enalbe AIE or optimize apps
+  (initial release! will add more useful stuffs)
+  to use:
+  if successfully installed in arch64 device.
+  type in termux (recommended):
+  su -c AIE64.
+  if successfully installed in armeabi device.
+  type in termux (recommended):
+  su -c AIE32
+
 
 
 
