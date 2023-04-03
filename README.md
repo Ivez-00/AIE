@@ -61,5 +61,46 @@
   su -c AIE32
 
 
+# Beta Stage 5 April 3 2023
+
+* added "instant boost" function and can be triggered
+  if these apps is on top (current app on the screen)
+  
+* Genshin impact
+* Punishing Gray Raven
+* Fate Grand order
+* PUBGM (global)
+* CODM (global)
+* Blue Archive
+* Apex Legends
+* LOL Wild Rift
+* Date a Live
+* Honkai Impact 3rd
+* Honkai StarRail (Beta Test App)
+* Towet of fantasy
+
+* AIE Helper :
+
+* added FSTRIM
+* added overlay compile in Optimize app option
+
+* others :
+
+* added No Throttling variant 
+* remove status logging
+* remove support for 32bit devices
+
+* Note :
+
+* The "No Throttling variant" doesn't mean your device will not
+  throttle at all, your ROM/kernel will decide instead of AIE
+* if the volume key selector didn't finish the installation in single press
+  just press the volume key twice.
+
+
+
+
+
+
 
 
